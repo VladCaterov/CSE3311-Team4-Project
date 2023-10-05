@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class onClick : MonoBehaviour
+public class characterCreation : MonoBehaviour
 {
     // Start is called before the first frame update
-
-    public void SceneLoadOnClick(int sceneID)
+    void Start(){
+        Scene scene = gameObject.scene;
+    }
+    public void Update()
     {
-        SceneManager.LoadScene(sceneID);
+       
+            Application.Quit();
     }
 }
