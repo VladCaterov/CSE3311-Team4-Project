@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/information-screen.unity
     guid: c2e7507cb4fd465489b22fefb442c589
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: c828e47dfb7d0457db310f5168cb23c1
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 6cf07ea104a39e745aea6fad21616d0a, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 7cac1e0b808e9b744a295b0f1487ccf7, type: 2}
