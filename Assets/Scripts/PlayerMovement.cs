@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
    public LayerMask groundLayer;
    private float horizontal;
    private float speed = 5f;
-   private float jumpingPower = 50f;
+   private float jumpingPower = 10f;
    private bool isFacingRight = true;
 
    void Update()
