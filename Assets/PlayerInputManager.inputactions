@@ -38,7 +38,7 @@
                     "id": "78ac5120-c210-4f4e-8f23-a9b6e6cc057e",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "Press(behavior=2)",
+                    "interactions": "",
                     "initialStateCheck": true
                 }
             ],
@@ -266,32 +266,10 @@
                 {
                     "name": "",
                     "id": "b802a743-67d8-4c15-bb04-8ebe40f1f661",
-                    "path": "<Gamepad>/buttonSouth",
-                    "interactions": "Tap,Press",
-                    "processors": "",
-                    "groups": "Gamepad;Touch",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "1cb3fc4c-5784-4b27-abdf-369e8b632a53",
-                    "path": "<Touchscreen>/primaryTouch",
+                    "path": "<Touchscreen>/primaryTouch/tap",
                     "interactions": "Tap",
                     "processors": "",
-                    "groups": "Touch;Gamepad",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "4d5ec41b-faec-4c09-9f7a-6f42517759df",
-                    "path": "<Touchscreen>/Press",
-                    "interactions": "Press(behavior=2)",
-                    "processors": "",
-                    "groups": "Gamepad;Touch;Joystick",
+                    "groups": "Gamepad;Touch",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
