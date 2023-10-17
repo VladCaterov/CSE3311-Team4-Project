@@ -133,7 +133,7 @@ public class CharacterCreator : MonoBehaviour
 
         float randLocationSceneID = Random.Range(5, 7);
         //SceneManager.LoadScene((int)randLocationSceneID);
-        SceneManager.LoadScene("Start");
+        SceneManager.LoadScene("Fight Scene 1");
     }
 
 }

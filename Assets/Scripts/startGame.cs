@@ -24,10 +24,10 @@ public class StartGame : MonoBehaviour
     private void InitializeButtons()
     {
         startGameButton.onClick.AddListener(delegate { SceneManager.LoadScene("CharacterCreation"); });
-        continueGameButton.onClick.AddListener(delegate { SceneManager.LoadScene("SampleScene"); });
+        continueGameButton.onClick.AddListener(delegate { SceneManager.LoadScene("Dorm-westHall"); }); // TEMP
         loadGameButton.onClick.AddListener(delegate { SceneManager.LoadScene("LoadGameScreen"); });
         settingsButton.onClick.AddListener(delegate { SceneManager.LoadScene("SettingsScreen"); });
-        informationButton.onClick.AddListener(delegate { SceneManager.LoadScene("information-screen"); });
+        informationButton.onClick.AddListener(delegate { SceneManager.LoadScene("InformationScreen"); });
     }
 
 }
