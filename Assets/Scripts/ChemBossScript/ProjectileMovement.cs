@@ -9,6 +9,7 @@ public class ProjectileMovement : MonoBehaviour
     private Vector2 lastVelocity;
     public int PointsOff = 17;
     private float destroyDelay = 30.0f; //wait time until destroyed 
+    private Movement_PLayer Josh; //Allows access to Health System
 
     void Start()
     {
@@ -38,14 +39,18 @@ public class ProjectileMovement : MonoBehaviour
         {
             rb.AddForce(Vector2.down * speed, ForceMode2D.Impulse);
         }
-        //if the object collides with the player then take off points 
-        if (collision.gameObject.TryGetComponent<Movement_PLayer>(out Movement_PLayer Josh))
-        {
-            Josh.markWrong(PointsOff);
-        }
         //when it collides with something, reflect the direction that its going 
         speed = lastVelocity.magnitude;
         var direction = Vector2.Reflect(lastVelocity.normalized, collision.contacts[0].normal);
         rb.velocity = direction * Mathf.Max(speed, 0f);
+    }
+
+    private void OnTriggerEnter2D(Collider2D hit)
+    {
+        Josh = hit.GetComponent<Movement_PLayer>(); //detects the collision to Josh
+        if (Josh != null)
+        {
+            Josh.markWrong(PointsOff); //Marks points off Josh's "score"
+        }
     }
 }

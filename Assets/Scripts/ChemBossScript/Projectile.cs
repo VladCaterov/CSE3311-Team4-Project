@@ -9,7 +9,7 @@ public class WaterProjectile : MonoBehaviour
     public GameObject Saltprefab;
     public Transform firePoint;//the place where the water and salt will shoot out 
 
-    private int questions = 30; //number of questions 
+    private int questions = 10; //number of questions 
     private bool Question_button = false; //check if question button is pressed 
 
     void Update()
