@@ -13,7 +13,7 @@ public class MoveLeftRight : MonoBehaviour
     public GameObject Character; //for Boss character 
     public GameObject EndMessageUI; //To display end of message Canvas at the end 
 
-    private int questions = 10; //number of questions
+    private int questions = 30; //number of questions
     private Vector3 startPosition; //for boss left right movement 
     private bool movingRight = true; //check if player is moving right 
 
@@ -76,5 +76,14 @@ public class MoveLeftRight : MonoBehaviour
     {
         //the question fireing button is pressed 
         pressed = true;
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        //if the player touches boss gets 100 points taken off 
+        if (collision.gameObject.TryGetComponent<Movement_PLayer>(out Movement_PLayer Josh))
+        {
+            Josh.markWrong(100);
+        }
+
     }
 }

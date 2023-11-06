@@ -857,7 +857,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: a4abcec843fb7a444b55e78172cfdbe5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -878,7 +878,7 @@ Transform:
   m_GameObject: {fileID: 424652556}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.95, y: -4.59, z: 0}
+  m_LocalPosition: {x: -2.73, y: -0.58, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1132,6 +1132,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96db380e916b354468161ef3351b9229, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &522075337
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522075327}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &530752546
 GameObject:
   m_ObjectHideFlags: 0
@@ -2035,7 +2062,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3457295348929611289, guid: 7ef6278a4b1e0a54bb1947561f114844, type: 3}
       insertIndex: 0
       addedObject: {fileID: 307672913}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4388743856419339757, guid: 7ef6278a4b1e0a54bb1947561f114844, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 522075337}
   m_SourcePrefab: {fileID: 100100000, guid: 7ef6278a4b1e0a54bb1947561f114844, type: 3}
 --- !u!1 &810516168
 GameObject:
@@ -3682,7 +3712,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1184138100
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3699,7 +3729,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -397, y: 302}
+  m_AnchoredPosition: {x: -438, y: 294}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1184138101
@@ -3722,7 +3752,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GAME OVER
+  m_text: EXAM FAILED
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3785,7 +3815,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -35.92206, z: -794.27686, w: 0}
+  m_margin: {x: 0, y: -35.92206, z: -887.4136, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5956,7 +5986,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '2) If you have full health, you may hit up to 5 questions
+  m_text: '2) If you have full health, you may hit up to 5 questions. DO NOT TOUCH
+    BOSS!
 
 '
   m_isRightToLeft: 0
@@ -6021,7 +6052,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -715.2539, w: 0}
+  m_margin: {x: 0, y: 0, z: -1422.1196, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
