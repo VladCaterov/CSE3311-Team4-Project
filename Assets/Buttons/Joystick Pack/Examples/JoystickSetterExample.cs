@@ -25,7 +25,7 @@ public class JoystickSetterExample : MonoBehaviour
                 break;
             default:
                 break;
-        }     
+        }
     }
 
     public void AxisChanged(int index)
