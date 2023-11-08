@@ -11,7 +11,7 @@ public class application : MonoBehaviour
     }
     public void Update()
     {
-       
-            Application.Quit();
+
+        Application.Quit();
     }
 }
