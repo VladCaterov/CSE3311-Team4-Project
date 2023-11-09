@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject GameStatusIndicator;
     public GameObject GameOverIndicator;
+    public GameObject PassedExamIndicator;
 
     void Update()
     {
@@ -43,6 +44,7 @@ public class PlayerMovement : MonoBehaviour
         if(GameStatusIndicator == null)
         {
             animator.SetBool("CanCelebrateNow", true);
+            PassedExamIndicator.SetActive(true);
         }
     }
 

@@ -22,6 +22,7 @@ public class InfoScreen : MonoBehaviour
     public void RetryButton()
     {
         SceneManager.LoadScene("Physics Boss");
+        StartGame(); //may need to find alternative to this
     }
     public void ExitButton()
     {
