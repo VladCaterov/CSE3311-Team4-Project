@@ -15,7 +15,7 @@ TagManager:
   - Ground
   - Button
   - Player
-  - 
+  - Splash Screen
   - 
   - 
   - 
@@ -55,4 +55,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 848082365
+    locked: 0
+  - name: Splash Screen
+    uniqueID: 211319437
     locked: 0

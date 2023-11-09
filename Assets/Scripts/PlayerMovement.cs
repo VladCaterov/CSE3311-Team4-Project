@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
 
     public GameObject GameStatusIndicator;
+    public GameObject GameOverIndicator;
 
     void Update()
     {
@@ -97,6 +98,7 @@ public class PlayerMovement : MonoBehaviour
         if (ScoreLeft <= 0)
         {
             Fail();
+            GameOverIndicator.SetActive(true);
         }
     }
 
