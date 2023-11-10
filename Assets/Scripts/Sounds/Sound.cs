@@ -4,7 +4,7 @@ using UnityEngine.Audio;
 using UnityEngine;
 
 
-[System.Serializable]
+[System.Serializable] //Allows Unity to use this class
 public class Sound
 {
     // Start is called before the first frame update
@@ -16,5 +16,6 @@ public class Sound
     [Range(0.1f, 3f)]
     public float pitch;
 
+    [HideInInspector]
     public AudioSource source;
 }
