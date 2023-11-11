@@ -32,11 +32,16 @@ public class GameAudioManager : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        Play("Main");
+        Play("Main Audio");
     }
     public void Play(string name)
     {
         Sound s = Array.Find(sounds, sound => sound.soundName == name);
+        if(s == null)
+        {
+            Debug.LogWarning("Sound: " + name + " not found!");
+            return;
+        }
         s.source.Play();
     }
 }
