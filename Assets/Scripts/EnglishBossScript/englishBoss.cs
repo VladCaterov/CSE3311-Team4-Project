@@ -12,6 +12,7 @@ public class englishBoss : MonoBehaviour
     private int allowedRotations = 5;
     void Start()
     {
+        Debug.Log(Screen.safeArea.x);
         controller = gameObject.AddComponent<CharacterController>();
         initialPosition = transform.position.x;
         transform.Translate(bossSpeed * Time.deltaTime * direction);
@@ -24,11 +25,11 @@ public class englishBoss : MonoBehaviour
         {
             transform.Translate(bossSpeed * Time.deltaTime * direction);
         }
-        if (transform.position.x <= -8)
+        if (transform.position.x <= -9)
         {
             direction = Vector2.right;
         }
-        else if (transform.position.x >= 8)
+        else if (transform.position.x >= 9)
         {
             direction = Vector2.left;
             if (RotationComplete())
