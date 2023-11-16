@@ -12,7 +12,6 @@ public class englishBoss : MonoBehaviour
     private int allowedRotations = 5;
     void Start()
     {
-        Debug.Log(Screen.safeArea.x);
         controller = gameObject.AddComponent<CharacterController>();
         initialPosition = transform.position.x;
         transform.Translate(bossSpeed * Time.deltaTime * direction);
