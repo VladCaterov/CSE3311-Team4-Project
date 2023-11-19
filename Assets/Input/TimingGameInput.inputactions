@@ -31,6 +31,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "TimingTap",
+                    "type": "Button",
+                    "id": "4901a4c0-e024-46e2-99ee-4e7853b4d610",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -253,6 +262,17 @@
                     "action": "Fire",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2c3ca263-f15e-466b-82a1-0a6ff7255c99",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "Touch;Keyboard&Mouse",
+                    "action": "TimingTap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -346,6 +366,15 @@
                     "type": "PassThrough",
                     "id": "39fd3d99-8b45-4fd5-852a-a0893cefb021",
                     "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TimingTap2",
+                    "type": "Button",
+                    "id": "b9f9a39b-ec56-4528-a3b3-e296dede145f",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -696,10 +725,10 @@
                 {
                     "name": "",
                     "id": "47c2a644-3ebc-4dae-a106-589b7ca75b59",
-                    "path": "<Touchscreen>/touch*/press",
+                    "path": "<Touchscreen>/primaryTouch/tap",
                     "interactions": "Tap",
                     "processors": "",
-                    "groups": "Touch",
+                    "groups": "Touch;Keyboard&Mouse",
                     "action": "Click",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -767,6 +796,17 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "TrackedDeviceOrientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fb37f12d-2f57-4b0b-a508-f869d05b577d",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "Touch;Keyboard&Mouse",
+                    "action": "TimingTap2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

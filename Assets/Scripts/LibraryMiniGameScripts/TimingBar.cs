@@ -5,28 +5,28 @@ using UnityEngine.InputSystem;
 public class TimingBar : MonoBehaviour
 {
     public Slider slider;
-    public float IncrementValue = .05f;
-    private int multiplier = 10;
+    public float IncrementValue = 0.5f;
+   // private int multiplier = 10;
     private bool LetsIncrease = false, LetsDecrease = false;
-    private float UpperBound = 95f, LowerBound = 60f;
-    float selectedPoint;
+    public RectTransform UpperBound;
+    public RectTransform LowerBound;
+    private static float LowerBoundLine;
+    private static float UpperBoundLine;
+    private float selectedPoint;
     private int ChoicesMade = 0, CorrectChoices = 0;
     public float BoundChangeValue = 5;
 
     // Start is called before the first frame update
+
     void Start()
     {
-
+        LowerBoundLine = 71;
+        UpperBoundLine = 97;
     }
     
     // Update is called once per frame
     void Update()
     {
-        //We can probably assign the statement below to get the actual value of the bar as it fills in
-        //*************************
-        //slider.fillRect.rect.y; *
-        //*************************
-
         //set flags for decrease and increasing based on the reaching min & max slider boundaries
         if(slider.value <= slider.minValue)
         {
@@ -42,21 +42,16 @@ public class TimingBar : MonoBehaviour
         //Make the slider go up and down
         if(LetsIncrease == true)
         {
-            Debug.Log("Increasing");
-            Debug.Log(slider.fillRect.rect.y);
             IncreaseSlider();
         }
         else if(LetsDecrease == true)
         {
-            Debug.Log("Decreasing");
-            Debug.Log(slider.fillRect.rect.y);
             DecreaseSlider();
         }
         
         //Check if player has made 10 selections to end minigame
         if (ChoicesMade == 10)
         {
-            //endgame
             //pop up splash screen
             //reward player
             switch (CorrectChoices)
@@ -71,25 +66,35 @@ public class TimingBar : MonoBehaviour
                     //some reward
                     break;
             }
+            //endgame
         }
     }
-
+    /*
     public void ShrinkZone()
     {
         //Shrink the upper and lower limits of acceptable values for the slider.value
         //also increase the multiplier which will affect the speed of increasing and decreasing
-        UpperBound -= BoundChangeValue;
-        LowerBound += BoundChangeValue;
-    }
+        UpperBoundLine -= BoundChangeValue;
+        LowerBoundLine += BoundChangeValue;
+        Debug.Log("New UpperBound: " + UpperBoundLine);
+        Debug.Log("New LowerBound: " + LowerBoundLine);
 
+        //Change the actual position in UI
+        UpperBound.rect.Set(UpperBound.anchoredPosition.x, UpperBoundLine, UpperBound.rect.width, (UpperBoundLine - UpperBound.rect.yMin)); //may need to fix this height variable 
+        LowerBound.rect.Set(LowerBound.rect.x, LowerBoundLine, LowerBound.rect.width, LowerBound.rect.height);
+        Debug.Log("The zone has been shrunk");
+    }
+    */
     private void DecreaseSlider()
     {
-        slider.value -= IncrementValue * multiplier;
+        slider.value -= IncrementValue;
+        //Debug.Log(slider.fillRect.rect.y);
     }
 
     private void IncreaseSlider()
     {
-        slider.value += IncrementValue * multiplier;
+        slider.value += IncrementValue;
+        //Debug.Log(slider.fillRect.rect.y);
     }
 
 
@@ -97,18 +102,29 @@ public class TimingBar : MonoBehaviour
     {
         if (context.performed)
         {
-            selectedPoint = slider.fillRect.rect.y;
+           // Debug.Log("Upper bound: " + UpperBoundLine);
+            //Debug.Log("Lower bound: " + LowerBoundLine);
+            Debug.Log("Point Picked");
+            selectedPoint = slider.value; //Used absolute value since the values are coming out negative hmmmmm...
+            Debug.Log("Selected Point: " + selectedPoint);
             //Check for acceptable choice (check if within bounds)
-            if ((selectedPoint >= LowerBound) && (selectedPoint <= UpperBound))
+            
+            if ((selectedPoint >= LowerBoundLine) && (selectedPoint <= UpperBoundLine))
             {
-                ShrinkZone();
+                Debug.Log("Point Picked in bounds");
+                //ShrinkZone();
                 ChoicesMade++;
                 CorrectChoices++;
+                Debug.Log("Choices Made: " + ChoicesMade);
+                Debug.Log("Correct Choices: " + CorrectChoices);
             }
             else
             {
+                Debug.Log("It's just not your day");
                 ChoicesMade++;
+                Debug.Log("Choices Made: " + ChoicesMade);
             }
+            
         }
     }
 }
