@@ -6,12 +6,10 @@ public class TimingBar : MonoBehaviour
 {
     public Slider slider;
     public float IncrementValue = 0.5f;
-   // private int multiplier = 10;
     private bool LetsIncrease = false, LetsDecrease = false;
-    public RectTransform UpperBound;
-    public RectTransform LowerBound;
     private static float LowerBoundLine;
     private static float UpperBoundLine;
+    private bool CanSelect = false;
     private float selectedPoint;
     private int ChoicesMade = 0, CorrectChoices = 0;
     public float BoundChangeValue = 5;
@@ -30,21 +28,23 @@ public class TimingBar : MonoBehaviour
         //set flags for decrease and increasing based on the reaching min & max slider boundaries
         if(slider.value <= slider.minValue)
         {
+            CanSelect = true;  //Allow ability to pickpoint
             LetsIncrease = true;
             LetsDecrease = false;
         }
         else if(slider.value >= slider.maxValue)
         {
+            CanSelect = false; //Don't allow ability to pickpoint while decreasing
             LetsDecrease = true;
             LetsIncrease = false;
         }
         
         //Make the slider go up and down
-        if(LetsIncrease == true)
+        if(LetsIncrease)
         {
             IncreaseSlider();
         }
-        else if(LetsDecrease == true)
+        else if(LetsDecrease)
         {
             DecreaseSlider();
         }
@@ -100,29 +100,28 @@ public class TimingBar : MonoBehaviour
 
     public void PickPoint(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (context.performed && (CanSelect))
         {
-           // Debug.Log("Upper bound: " + UpperBoundLine);
-            //Debug.Log("Lower bound: " + LowerBoundLine);
+            CanSelect = false; //If we pick a point don't allow picking of points until we reach min again
             Debug.Log("Point Picked");
             selectedPoint = slider.value; //Used absolute value since the values are coming out negative hmmmmm...
             Debug.Log("Selected Point: " + selectedPoint);
+
             //Check for acceptable choice (check if within bounds)
-            
             if ((selectedPoint >= LowerBoundLine) && (selectedPoint <= UpperBoundLine))
             {
                 Debug.Log("Point Picked in bounds");
                 //ShrinkZone();
                 ChoicesMade++;
                 CorrectChoices++;
-                Debug.Log("Choices Made: " + ChoicesMade);
+                Debug.Log("Choice " + ChoicesMade + " Correct");
                 Debug.Log("Correct Choices: " + CorrectChoices);
             }
             else
             {
-                Debug.Log("It's just not your day");
+                Debug.Log("Out of Bounds");
                 ChoicesMade++;
-                Debug.Log("Choices Made: " + ChoicesMade);
+                Debug.Log("Choice " + ChoicesMade + " Incorrect");
             }
             
         }

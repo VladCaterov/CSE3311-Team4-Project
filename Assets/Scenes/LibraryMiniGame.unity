@@ -1316,8 +1316,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 1740412719}
   IncrementValue: 0.3
-  UpperBound: {fileID: 369275449}
-  LowerBound: {fileID: 696157494}
   BoundChangeValue: 5
 --- !u!114 &1743131288
 MonoBehaviour:
