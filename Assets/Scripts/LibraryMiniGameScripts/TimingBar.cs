@@ -13,6 +13,11 @@ public class TimingBar : MonoBehaviour
     private float selectedPoint;
     private int ChoicesMade = 0, CorrectChoices = 0;
     public float BoundChangeValue = 5;
+    public Text CorrectChoicesText;
+    public Animator BlazeAnimation;
+    public Animator BookAnimation;
+    public GameObject GameDoneIndicator;
+    public Text EndScreenCCDisplay;
 
     // Start is called before the first frame update
 
@@ -31,6 +36,9 @@ public class TimingBar : MonoBehaviour
             CanSelect = true;  //Allow ability to pickpoint
             LetsIncrease = true;
             LetsDecrease = false;
+            BlazeAnimation.SetBool("CorrectlyAnswered", false);
+            BookAnimation.SetBool("CorrectlyAnswered", false);
+
         }
         else if(slider.value >= slider.maxValue)
         {
@@ -48,7 +56,7 @@ public class TimingBar : MonoBehaviour
         {
             DecreaseSlider();
         }
-        
+
         //Check if player has made 10 selections to end minigame
         if (ChoicesMade == 10)
         {
@@ -58,12 +66,18 @@ public class TimingBar : MonoBehaviour
             {
                 case 8:
                     //some reward
+                    GameDoneIndicator.SetActive(true);
+                    EndScreenCCDisplay.text = "Correct Choices: " + CorrectChoices;
                     break;
                 case 9:
                     //some reward
+                    GameDoneIndicator.SetActive(true);
+                    EndScreenCCDisplay.text = "Correct Choices: " + CorrectChoices;
                     break;
                 case 10:
                     //some reward
+                    GameDoneIndicator.SetActive(true);
+                    EndScreenCCDisplay.text = "Correct Choices: " + CorrectChoices;
                     break;
             }
             //endgame
@@ -114,6 +128,10 @@ public class TimingBar : MonoBehaviour
                 //ShrinkZone();
                 ChoicesMade++;
                 CorrectChoices++;
+                IncrementValue += 0.1f; //Up the speed of the slider
+                CorrectChoicesText.text = CorrectChoices + "/10";
+                BlazeAnimation.SetBool("CorrectlyAnswered", true);
+                BookAnimation.SetBool("CorrectlyAnswered", true);
                 Debug.Log("Choice " + ChoicesMade + " Correct");
                 Debug.Log("Correct Choices: " + CorrectChoices);
             }
