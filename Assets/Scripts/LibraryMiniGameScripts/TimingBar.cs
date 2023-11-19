@@ -61,6 +61,7 @@ public class TimingBar : MonoBehaviour
         if (ChoicesMade == 10)
         {
             //pop up splash screen
+            //Stop the shenanigans
             //reward player
             switch (CorrectChoices)
             {
@@ -68,16 +69,25 @@ public class TimingBar : MonoBehaviour
                     //some reward
                     GameDoneIndicator.SetActive(true);
                     EndScreenCCDisplay.text = "Correct Choices: " + CorrectChoices;
+                    LetsDecrease = false;
+                    LetsIncrease = false;
+                    CanSelect = false;
                     break;
                 case 9:
                     //some reward
                     GameDoneIndicator.SetActive(true);
                     EndScreenCCDisplay.text = "Correct Choices: " + CorrectChoices;
+                    LetsDecrease = false;
+                    LetsIncrease = false;
+                    CanSelect = false;
                     break;
                 case 10:
                     //some reward
                     GameDoneIndicator.SetActive(true);
                     EndScreenCCDisplay.text = "Correct Choices: " + CorrectChoices;
+                    LetsDecrease = false;
+                    LetsIncrease = false;
+                    CanSelect = false;
                     break;
             }
             //endgame
