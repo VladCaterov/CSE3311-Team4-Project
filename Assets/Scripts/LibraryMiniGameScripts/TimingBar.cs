@@ -89,6 +89,14 @@ public class TimingBar : MonoBehaviour
                     LetsIncrease = false;
                     CanSelect = false;
                     break;
+                default:
+                    GameDoneIndicator.SetActive(true);
+                    EndScreenCCDisplay.text = "Correct Choices: " + CorrectChoices;
+                    LetsDecrease = false;
+                    LetsIncrease = false;
+                    CanSelect = false;
+                    break;
+
             }
             //endgame
         }
