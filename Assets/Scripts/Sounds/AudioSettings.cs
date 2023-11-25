@@ -12,24 +12,30 @@ public class AudioSettings : MonoBehaviour
     
     void Start()
     {
+
+        //audioToggle.isOn = false;
+       
         GameObject audioManager = GameObject.FindGameObjectWithTag("AudioManager");
         AudioSource[] audioSources = audioManager.GetComponents<AudioSource>();
 
-
+        var x = (audioSources[0].volume == 0f) ? (audioToggle.isOn = true) : (audioToggle.isOn = false);
         backButton.onClick.AddListener(delegate{ GoBack(); });
 
         audioToggle.onValueChanged.AddListener(delegate
         {
            
-            if (!audioToggle.isOn)
-            { 
+            if (audioToggle.isOn)
+            {
+                volumeSlider.enabled = false;
                 foreach (AudioSource audioSource in audioSources)
                 {
                     audioSource.volume = 0f;
+                    volumeSlider.value = 0f;
                 }
             }
             else
             {
+                volumeSlider.enabled = true;
                 foreach (AudioSource audioSource in audioSources)
                 {
                     audioSource.volume = volumeSlider.value;
