@@ -1624,7 +1624,7 @@ GameObject:
   - component: {fileID: 1607016629}
   m_Layer: 0
   m_Name: GameAudioManager
-  m_TagString: Untagged
+  m_TagString: AudioManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1657,10 +1657,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Main Audio
+  - name: main
     clip: {fileID: 8300000, guid: 9781c366c7fb88046a303fdf4e522557, type: 3}
-    volume: 0.537
-    pitch: 0
+    volume: 0.5
+    pitch: 1
     loop: 1
     source: {fileID: 0}
 --- !u!1 &1625405393
