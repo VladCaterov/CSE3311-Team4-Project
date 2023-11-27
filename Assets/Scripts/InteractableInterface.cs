@@ -21,7 +21,7 @@ public class InteractableInterface : MonoBehaviour
     {
        
     }
-
+    /*
     public void interact(InputAction.CallbackContext context)
     {
         if(isInRange && context.performed)
@@ -30,13 +30,18 @@ public class InteractableInterface : MonoBehaviour
             Debug.Log("Action invoked");
         }
     }
-
+    */
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             isInRange = true;
             Debug.Log("Player is in Range");
+            if (isInRange) //remove this if later for proper invoking 
+            {
+                interactAction.Invoke();
+                Debug.Log("Action invoked");
+            }
         }
     }
 
@@ -46,6 +51,7 @@ public class InteractableInterface : MonoBehaviour
         {
             isInRange = false;
             Debug.Log("Player is out of range");
+            
         }
     }
 
