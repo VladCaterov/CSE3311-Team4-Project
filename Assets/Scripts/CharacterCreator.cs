@@ -4,6 +4,9 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+
 public class CharacterCreator : MonoBehaviour
 {
 
@@ -23,8 +26,8 @@ public class CharacterCreator : MonoBehaviour
     public Button startGame;
 
     // Use this for initialization
-    
-    
+
+
     void Start()
     {
         starter1.onValueChanged.AddListener(delegate
@@ -72,10 +75,10 @@ public class CharacterCreator : MonoBehaviour
         {
             ModifySchedule(class6);
         });
-    startGame.onClick.AddListener(delegate
-        {
-            BeginAdventure();
-        });
+        startGame.onClick.AddListener(delegate
+            {
+                BeginAdventure();
+            });
     }
     // Update is called once per frame
     void Update()
@@ -120,7 +123,7 @@ public class CharacterCreator : MonoBehaviour
             foreach (Toggle t in inactiveToggles)
             {
                 t.interactable = true;
-            }     
+            }
         }
         foreach (Toggle t in schedule)
         {
@@ -129,11 +132,31 @@ public class CharacterCreator : MonoBehaviour
     }
     public void BeginAdventure()
     {
-        print("Hello");
+        //if (starter1.isOn || starter2.isOn || starter3.isOn)
+        //{
+        //    if (CheckGameSaves())
+        //    {
 
+        //    }
+        //}
         float randLocationSceneID = Random.Range(5, 7);
         //SceneManager.LoadScene((int)randLocationSceneID);
         SceneManager.LoadScene("Fight Scene 1");
     }
+
+    //private bool CheckGameSaves()
+    //{
+    //    string destination = Application.persistentDataPath + "/gamesaves.dat";
+    //    FileStream file;
+
+    //    if (File.Exists(destination)) file = File.OpenRead(destination);
+    //    else
+    //    {
+    //        Debug.LogError("File not found");
+    //        file = File.Create(destination);
+    //        file.
+    //    }
+
+    //}
 
 }
