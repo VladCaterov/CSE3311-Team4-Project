@@ -1889,6 +1889,7 @@ MonoBehaviour:
   GameStatusIndicator: {fileID: 1196027991}
   GameOverIndicator: {fileID: 435613248}
   PassedExamIndicator: {fileID: 2120531588}
+  Scene: {fileID: 102900000, guid: 73227a2dc7725c84e9feb94654b8f98b, type: 3}
   ScoreLeft: 100
 --- !u!114 &181427836
 MonoBehaviour:
@@ -8798,6 +8799,7 @@ MonoBehaviour:
   GameStatusIndicator: {fileID: 0}
   GameOverIndicator: {fileID: 0}
   PassedExamIndicator: {fileID: 0}
+  Scene: {fileID: 0}
   ScoreLeft: 100
 --- !u!1 &1204674631
 GameObject:

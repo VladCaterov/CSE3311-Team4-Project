@@ -1,13 +1,14 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using ETouch = UnityEngine.InputSystem.EnhancedTouch;
+using UnityEditor;
 
 public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
     public Transform groundCheck;
     public LayerMask groundLayer;
-    private float horizontal;
+    private float horizontal,vertical;
     private float speed = 5f;
     private float jumpingPower = 10f;
     private bool isFacingRight = true;
@@ -16,16 +17,19 @@ public class PlayerMovement : MonoBehaviour
     public GameObject GameStatusIndicator;
     public GameObject GameOverIndicator;
     public GameObject PassedExamIndicator;
+    public SceneAsset Scene;
+    
 
     void Update()
     {
         animator.SetFloat("Speed", Mathf.Abs(horizontal)); //takes horizontal movement speed and updates/trigger animation for running
+        animator.SetFloat("VertSpeed", vertical);
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
         if (IsGrounded())
         {
             animator.SetBool("IsJumping", false);
         }
-        if (rb.velocity.y > 0.01)
+        if (rb.velocity.y > 0.01 && Scene.name == "Physics Boss")  //Only allow jumping in Physics boss level
         {
             animator.SetBool("IsJumping", true);
         }
@@ -44,6 +48,8 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("CanCelebrateNow", true);
             PassedExamIndicator.SetActive(true);
         }
+
+        
     }
 
     //Used to check if the player is on the ground, will be used for determining if another jump is allowed
@@ -65,6 +71,20 @@ public class PlayerMovement : MonoBehaviour
         if(GameStatusIndicator != null)
         {
             horizontal = context.ReadValue<Vector2>().x; //condition to allow player to move and stop upon win
+            vertical = context.ReadValue<Vector2>().y;
+            if(vertical>0)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, vertical * speed * .6f);
+            }
+            if (vertical < 0)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, vertical * speed * .6f);
+            }
+            if(context.canceled)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, 0); //Makes sure player doesn't float into the universe
+
+            }
         }
     }
 

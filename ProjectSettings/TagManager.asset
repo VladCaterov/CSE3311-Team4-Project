@@ -59,3 +59,6 @@ TagManager:
   - name: Splash Screen
     uniqueID: 211319437
     locked: 0
+  - name: Interactable
+    uniqueID: 4011999581
+    locked: 0
