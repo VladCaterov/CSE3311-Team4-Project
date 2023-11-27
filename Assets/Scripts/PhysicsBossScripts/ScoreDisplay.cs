@@ -5,7 +5,7 @@ public class ScoreDisplay : MonoBehaviour
 {
    static public GameObject Score1;
    static public GameObject Score2;
-   public PlayerMovement Points1 = Score1.GetComponent<PlayerMovement>();
+    public PlayerMovement Points1 = Score1.GetComponent <PlayerMovement>();
    public PlayerMovement Points2 = Score2.GetComponent <PlayerMovement>();
    public Text ScoreDisplayText1;
    public Text ScoreDisplayText2;

@@ -13,7 +13,7 @@ public class MoveLeftRight : MonoBehaviour
     public GameObject Character; //for Boss character 
     public GameObject EndMessageUI; //To display end of message Canvas at the end 
 
-    private int questions = 30; //number of questions
+    public int questions = 30; //number of questions
     private Vector3 startPosition; //for boss left right movement 
     private bool movingRight = true; //check if player is moving right 
 
