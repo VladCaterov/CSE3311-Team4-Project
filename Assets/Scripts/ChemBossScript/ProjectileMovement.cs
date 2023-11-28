@@ -39,9 +39,9 @@ public class ProjectileMovement : MonoBehaviour
             rb.AddForce(Vector2.down * speed, ForceMode2D.Impulse);
         }
         //if the object collides with the player then take off points 
-        if (collision.gameObject.TryGetComponent<Movement_PLayer>(out Movement_PLayer Josh))
+        if (collision.gameObject.TryGetComponent<PlayerMovement>(out PlayerMovement Josh))
         {
-            Josh.markWrong(PointsOff);
+            Josh.markPoints(PointsOff);
         }
         //when it collides with something, reflect the direction that its going 
         speed = lastVelocity.magnitude;

@@ -80,9 +80,9 @@ public class MoveLeftRight : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //if the player touches boss gets 100 points taken off 
-        if (collision.gameObject.TryGetComponent<Movement_PLayer>(out Movement_PLayer Josh))
+        if (collision.gameObject.TryGetComponent<PlayerMovement>(out PlayerMovement Josh))
         {
-            Josh.markWrong(100);
+            Josh.markPoints(100);
         }
 
     }

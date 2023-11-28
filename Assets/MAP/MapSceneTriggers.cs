@@ -11,13 +11,21 @@ public class MapSceneTriggers : MonoBehaviour
         {
             SceneManager.LoadScene("ChemistryBoss");
         }
-        else if(collision.gameObject.name =="utaMap")
+        else if (collision.gameObject.name == "utaMap")
         {
             SceneManager.LoadScene("uta-map");
         }
         else if (collision.gameObject.name == "physic")
         {
             SceneManager.LoadScene("Physics Boss");
+        }
+        else if (collision.gameObject.name == "library")
+        {
+            SceneManager.LoadScene("LibraryMiniGame");
+        }
+        else if (collision.gameObject.name == "WestHall")
+        {
+            SceneManager.LoadScene("Dorm-westHall");
         }
     }
 }

@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject GameStatusIndicator;
     public GameObject GameOverIndicator;
     public GameObject PassedExamIndicator;
+    public GameObject EndGameUI;
     public SceneAsset Scene;
     
 
@@ -124,6 +125,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Fail()
     {
+        EndGameUI.SetActive(true);
+        Time.timeScale = 0f;
         Destroy(gameObject);
     }
 

@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/CharacterCreation.unity
     guid: 73fdd9fc66b601c4f9e161774b166f2d
   - enabled: 1
-    path: Assets/Scenes/InformationScreen.unity
+    path: Assets/Scenes/information-screen.unity
     guid: c2e7507cb4fd465489b22fefb442c589
   - enabled: 1
     path: Assets/Scenes/LoadGameScreen.unity
@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Game.unity
     guid: 84d3107be09f96442bb9d0a3c89b516e
   - enabled: 1
-    path: Assets/Scenes/Fight Scene 1.unity
+    path: Assets/Scenes/Physics Boss.unity
     guid: 73227a2dc7725c84e9feb94654b8f98b
   - enabled: 1
     path: Assets/Scenes/Dorm-westHall.unity
@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ChemistryBoss.unity
     guid: 2bef3b716a13430478ee8704216de233
+  - enabled: 1
+    path: Assets/Scenes/LibraryMiniGame.unity
+    guid: c44267800ba143c4d98341e092d3241a
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: dd5433e8c07e727478d141207183e152, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 68aeea8e04297ee40a10ac3dae73f317, type: 2}
