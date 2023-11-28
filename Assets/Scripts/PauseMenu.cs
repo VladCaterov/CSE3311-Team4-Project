@@ -6,8 +6,9 @@ public class PauseMenu : MonoBehaviour
 {
     // Start is called before the first frame update
     public static bool GamePaused = false;
-    public GameObject pauseMenuUI; 
-   
+    public GameObject pauseMenuUI;
+    public GameObject MapUI;
+
     public void ResumeGame()
     {
         pauseMenuUI.SetActive(false);
@@ -26,6 +27,16 @@ public class PauseMenu : MonoBehaviour
     public void BackToMenu()
     {
         SceneManager.LoadScene("Start");
+    }
+    public void displayMap()
+    {
+        MapUI.SetActive(true);
+        Time.timeScale = 0f;
+    }
+    public void GoBack()
+    {
+        MapUI.SetActive(false);
+        Time.timeScale = 1f;
     }
 }
 
