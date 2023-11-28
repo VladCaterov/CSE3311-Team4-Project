@@ -125,7 +125,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Fail()
     {
-        EndGameUI.SetActive(true);
+        //EndGameUI.SetActive(true);
         Time.timeScale = 0f;
         Destroy(gameObject);
     }
