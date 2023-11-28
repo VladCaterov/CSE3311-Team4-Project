@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using ETouch = UnityEngine.InputSystem.EnhancedTouch;
 using UnityEditor;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -125,10 +126,15 @@ public class PlayerMovement : MonoBehaviour
 
     void Fail()
     {
-        EndGameUI.SetActive(true);
-        Time.timeScale = 0f;
-        Destroy(gameObject);
+        if (SceneManager.GetActiveScene().name == "ChemistryBoss")
+        {
+            EndGameUI.SetActive(true);
+            Time.timeScale = 0f;
+            Destroy(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
-
-
 }

@@ -1889,6 +1889,7 @@ MonoBehaviour:
   GameStatusIndicator: {fileID: 1196027991}
   GameOverIndicator: {fileID: 435613248}
   PassedExamIndicator: {fileID: 2120531588}
+  EndGameUI: {fileID: 0}
   Scene: {fileID: 102900000, guid: 73227a2dc7725c84e9feb94654b8f98b, type: 3}
   ScoreLeft: 100
 --- !u!114 &181427836
@@ -1996,6 +1997,11 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 08c01b30-c73a-4430-8327-a17152ba47b4
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ef009234-9be5-4188-af1f-da2aa253a672
+    m_ActionName: Player/Interact[/Touchscreen/primaryTouch/tap,/Device Simulator
+      Touchscreen/primaryTouch/tap]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -2011,7 +2017,7 @@ Animator:
   m_GameObject: {fileID: 181427830}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3f387094bec59ef43bd263df942e17ea, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6ab28c69b50b9014bbf96640d04473bd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -8799,6 +8805,7 @@ MonoBehaviour:
   GameStatusIndicator: {fileID: 0}
   GameOverIndicator: {fileID: 0}
   PassedExamIndicator: {fileID: 0}
+  EndGameUI: {fileID: 0}
   Scene: {fileID: 0}
   ScoreLeft: 100
 --- !u!1 &1204674631
