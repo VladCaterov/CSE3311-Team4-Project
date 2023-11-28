@@ -25,6 +25,7 @@ public class InventorySystem
             inventorySlots.Add(new InventorySlot());
         }
     }
+    /*
 
     public bool AddToInventory(InventoryItemData itemToAdd, int amountToAdd)
     {
@@ -62,5 +63,5 @@ public class InventorySystem
     {
         freeSlot = InventorySlots.FirstOrDefault(i => i.ItemData == null); ;
         return freeSlot == null ? false : true;
-    }
+    }*/
 }
