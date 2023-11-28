@@ -1,0 +1,399 @@
+[33mcommit eb2852943ba8eb5e02d0523b1f36dcee3c290270[m[33m ([m[1;36mHEAD -> [m[1;32mJuan[m[33m, [m[1;31morigin/Juan[m[33m)[m
+Author: Juan Hernandez <jh183961@gmail.com>
+Date:   Sun Nov 5 01:03:08 2023 -0500
+
+    Button logic implemented,Boss damage connected. button randomization switch in progress
+
+[33mcommit 0662eb1ea3a4dd38981e694fa70f79919d450ce2[m
+Author: Juan Hernandez <jh183961@gmail.com>
+Date:   Sat Nov 4 15:53:41 2023 -0500
+
+    Buttons attached to boss for health, logic for button reset to be implemented as well as relocation
+
+[33mcommit c32bc04ea5b20554f253b3aad08b210f4298349b[m
+Author: Juan Hernandez <jh183961@gmail.com>
+Date:   Sat Nov 4 08:18:03 2023 -0500
+
+    Randomization added to buttons. Connection to health system still in progress
+
+[33mcommit 6be9570a27ff9d1dea3ca3f62e55ee6f553ae843[m
+Author: Juan Hernandez <jh183961@gmail.com>
+Date:   Fri Nov 3 19:27:06 2023 -0500
+
+    Buttons working with logic (one selectable at a time). Connection to health in progress
+
+[33mcommit 3bf4f888656dce2c4f415d12b7dbd79547a32f9a[m
+Author: Juan Hernandez <jh183961@gmail.com>
+Date:   Fri Nov 3 19:01:18 2023 -0500
+
+    Buttons working, logic being addressed
+
+[33mcommit 24c5f6e29c16d6db0188d95c6ac61c7da7369d2c[m
+Author: Juan Hernandez <jh183961@gmail.com>
+Date:   Thu Nov 2 16:04:28 2023 -0500
+
+    Choice Selection still in progress
+
+[33mcommit 2f56f3c7c5f515f68e54658665c7199d9c08ed37[m
+Author: Juan Hernandez <jh183961@gmail.com>
+Date:   Wed Oct 25 21:55:18 2023 -0500
+
+    Projectiles Up and running. Health system for player working. Next to implement Boss change and Exam health.
+
+[33mcommit e9e69651a113c168c0cd932c15dcfd0083d4ef16[m
+Author: Juan Hernandez <jh183961@gmail.com>
+Date:   Wed Oct 25 10:59:26 2023 -0500
+
+    testing
+
+[33mcommit ac64c0e07fc290c239f53f95800978b536a9b174[m
+Author: Juan Hernandez <jh183961@gmail.com>
+Date:   Wed Oct 25 10:51:57 2023 -0500
+
+    Projectiles fixed, collision detection to be implemented. projectile 3 and collision detection in progress
+
+[33mcommit 95fe961cb8d5e00b245d7600986b023ce6302fad[m
+Author: Juan Hernandez <jh183961@gmail.com>
+Date:   Tue Oct 24 15:30:52 2023 -0500
+
+    Projectiles projecting but...they're broken. Fix in progress
+
+[33mcommit 7a04a64ca4bbb8c958194e1e731cec1d165f1747[m
+Author: Juan Hernandez <jh183961@gmail.com>
+Date:   Mon Oct 23 13:31:41 2023 -0500
+
+    Attack Spawner script in progress, logic for time intervals needed as well as changing the different attack mechanics
+
+[33mcommit 2d2e002715e21675ec24e1116f6d7233d886df84[m
+Author: Juan Hernandez <jh183961@gmail.com>
+Date:   Sat Oct 21 14:35:22 2023 -0500
+
+    Projectile scripts in progress
+
+[33mcommit 43387895c009aa52ddd06cd971142b24c1bd3e57[m
+Author: Juan Hernandez <jh183961@gmail.com>
+Date:   Thu Oct 19 14:23:48 2023 -0500
+
+    Animation implemented
+
+[33mcommit 2dc8b13ff66f6fdf4ad7c50d891271d9e19a6c51[m
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Mon Oct 16 18:07:36 2023 -0500
+
+    fixing merge issues
+
+[33mcommit 2c5b899f1e6bb31fb08e1686d8169f2d5aad0a20[m
+Merge: 75ed889 366d3c5
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Mon Oct 16 14:32:28 2023 -0500
+
+    Merge remote-tracking branch 'origin/Juan'
+
+[33mcommit 75ed889c91edf095366fdb324ec5d29a77bc1c96[m
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Mon Oct 16 14:26:53 2023 -0500
+
+    merged origin/paige into main
+
+[33mcommit a51b1270bf779afdfb777b13f791a518b6fcf43b[m
+Merge: 9c892d2 7dd0d30
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Mon Oct 16 14:25:24 2023 -0500
+
+    Merge remote-tracking branch 'origin/Paige'
+
+[33mcommit 9c892d25244b5e8772a5bfbc78db4044a9e8b887[m
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Mon Oct 16 14:20:29 2023 -0500
+
+    merge with josh1 branch complete
+
+[33mcommit e829921342cc329739377659a7d1001f4f815a8a[m
+Merge: 107aa75 d54bf31
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Mon Oct 16 13:55:13 2023 -0500
+
+    Merge branch 'josh1'
+
+[33mcommit d54bf3174d84a8f67e4a21ce460d1fe9c334d7d7[m[33m ([m[1;31morigin/josh1[m[33m)[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Mon Oct 16 18:49:59 2023 +0000
+
+    Deleted Scenes
+
+[33mcommit 107aa752ae05ba856fd7fce8901e9bee43152613[m
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Mon Oct 16 13:41:16 2023 -0500
+
+    changed name for factoring
+
+[33mcommit 730f5340bd6ce934e4fb3e5cad6d2883b894d305[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Mon Oct 16 18:26:16 2023 +0000
+
+    Deleted Extra Character FIles
+
+[33mcommit 1209cb1bc7c6219c814f976b85dac370ff702fde[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Mon Oct 16 12:40:04 2023 -0500
+
+    Added All Pallets
+
+[33mcommit 0b13bb195a18e179028ed8687fe6c2a3deb96da2[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Mon Oct 16 12:38:59 2023 -0500
+
+    Added pallets
+
+[33mcommit e057ce3dc7047f5ca3204536cb18343c0023930a[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Mon Oct 16 12:36:02 2023 -0500
+
+    Added pallets
+
+[33mcommit e6e23bfb83e60d5dfc2d79230e79bdc8bbb53ae9[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Mon Oct 16 12:30:55 2023 -0500
+
+    added pallets
+
+[33mcommit 6b80a78ba04643fef582163a06b451c7a656371e[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Mon Oct 16 12:26:02 2023 -0500
+
+    Added Pallets
+
+[33mcommit 1cb5de3628a345defa29cc0cea3a233fd16f696e[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Mon Oct 16 12:17:38 2023 -0500
+
+    Added Dorm
+
+[33mcommit 2bd9da62e76bdb2557efa2485fa67eae10a01606[m
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Mon Oct 16 12:15:19 2023 -0500
+
+    changed how buttons are managed in start game.
+
+[33mcommit 58ea8b9f52726bafcbfad4f2890011ddb3e94e1b[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Mon Oct 16 12:11:20 2023 -0500
+
+    Added dorm
+
+[33mcommit 74eb9e4ddb5817723eb3c09ed804620224a3b074[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Mon Oct 16 12:09:11 2023 -0500
+
+    Delete Assets/DormAssets
+
+[33mcommit 97a53a90a19f005c8db76b5042686764e0f8de7c[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Mon Oct 16 12:08:24 2023 -0500
+
+    Create DormAssets
+
+[33mcommit bcfe21eddae987a00839cb99a7d80279cb8256ac[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Mon Oct 16 11:58:50 2023 -0500
+
+    Added Dorm Scene
+
+[33mcommit 366d3c56792d5cd18eea2140f96c23d0956d73a3[m
+Author: Juan Hernandez <jh183961@gmail.com>
+Date:   Sun Oct 15 22:31:17 2023 -0500
+
+    Level Design Completed
+    
+    Equations form platforms, All platforms Jumpable, Invisible barriers added.
+
+[33mcommit b062fbcac1eccf04fe80bca87eeebf713d65f877[m
+Author: Juan Hernandez <jh183961@gmail.com>
+Date:   Fri Oct 13 23:34:54 2023 -0500
+
+    fixed pivot, chair added, desks rearranged, tap to jump still needs work
+
+[33mcommit 569a3dcd62a93f1275f75176fe1ad298b4da8411[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Fri Oct 13 23:02:44 2023 -0500
+
+    Added Idle
+
+[33mcommit 8786dce4a0995c6cc218b61db81e3f6f11fc937b[m
+Merge: 4fd6825 1e37e92
+Author: Juan Hernandez <jh183961@gmail.com>
+Date:   Fri Oct 13 18:43:49 2023 -0500
+
+    Merge remote-tracking branch 'origin/josh' into Juan
+
+[33mcommit c8f0999da3897f5694e8451c7dbae94a3eca9a7d[m[33m ([m[1;31morigin/test-branch[m[33m)[m
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Fri Oct 13 17:53:49 2023 -0500
+
+    added changes to starter item selection
+
+[33mcommit 1e37e9261e29412925732c17ff6aea822ce594f3[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Fri Oct 13 17:00:18 2023 -0500
+
+    Added Character animation
+
+[33mcommit 4fd6825df3406be8abceeff6587d30840223a631[m
+Author: OHKevinG <jh183961@gmail.com>
+Date:   Fri Oct 13 16:39:16 2023 -0500
+
+    Jump fixed, Desk jump colliders in progress
+
+[33mcommit c4a19c4f20b5e634b3ebf4f0d4c05cb162139ba7[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Fri Oct 13 16:08:18 2023 -0500
+
+    Character Animation Added
+
+[33mcommit 815c0c6e7cd07c13f3d189b3ba655f4e3e410860[m
+Author: OHKevinG <jh183961@gmail.com>
+Date:   Thu Oct 12 19:27:27 2023 -0500
+
+    Base Boss Fight scene, Boss, and Movement added
+
+[33mcommit 7dd0d30dbe4a1c7c0c0f933262bdadd618504623[m[33m ([m[1;31morigin/Paige[m[33m)[m
+Author: ElisabethHarrisUTA <123337168+ElisabethHarrisUTA@users.noreply.github.com>
+Date:   Thu Oct 12 18:05:52 2023 -0500
+
+    added Inventory Buttom
+
+[33mcommit f0eb10236fdedbbda46b1c67408597ba6d82ef1a[m
+Merge: 9c41a1c 12923f6
+Author: ElisabethHarrisUTA <123337168+ElisabethHarrisUTA@users.noreply.github.com>
+Date:   Tue Oct 10 15:28:26 2023 -0500
+
+    Merge remote-tracking branch 'origin/Juan' into Paige
+
+[33mcommit 9c41a1c1d871818b4de9de5a5ec4c0c450fa93f0[m
+Merge: 2487793 1f0f38c
+Author: ElisabethHarrisUTA <123337168+ElisabethHarrisUTA@users.noreply.github.com>
+Date:   Tue Oct 10 15:27:21 2023 -0500
+
+    Merge branch 'josh' into Paige
+
+[33mcommit 24877935c224d49f30612ba664700028af16d672[m
+Author: ElisabethHarrisUTA <123337168+ElisabethHarrisUTA@users.noreply.github.com>
+Date:   Tue Oct 10 15:17:22 2023 -0500
+
+    adding Settings screen navigation
+
+[33mcommit 1f0f38ceac405e3ea44ae544f1b0e91ad737d26c[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Mon Oct 9 16:50:43 2023 -0500
+
+    editor
+
+[33mcommit d0bcfd4dd6ed5a9cb617742ee81154412ed38da4[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Mon Oct 9 16:46:33 2023 -0500
+
+    Added Map
+
+[33mcommit 423ec23c5e13035b5b43213f8bbc2748671df5a6[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Mon Oct 9 16:45:20 2023 -0500
+
+    added PauseMenu script
+
+[33mcommit ccb498c23a536dbfee61ea776ccfdce3bd76a7ba[m
+Author: joshlian <123327816+joshlian@users.noreply.github.com>
+Date:   Mon Oct 9 16:44:09 2023 -0500
+
+    Add assets
+
+[33mcommit 2b1dc9d2718618da8b87d18427ac6b862b0585fd[m
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Fri Oct 6 21:13:32 2023 -0500
+
+    adding some methods
+
+[33mcommit c91dbf5f8bc974af0e9ea495c0735e265966237b[m
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Thu Oct 5 17:38:00 2023 -0500
+
+    adding modified character creation
+
+[33mcommit eedf125341bdf7169cdadfcfd91484ea1dc4334e[m
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Wed Oct 4 21:25:33 2023 -0500
+
+    added text font
+
+[33mcommit bcf950624655a1b1e0c977ea08e2692f30614bec[m[33m ([m[1;31morigin/info-redirect[m[33m)[m
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Thu Sep 28 06:30:00 2023 -0500
+
+    added navigation to info screen and start screen
+
+[33mcommit 2a8a16e57871dc09dd4cf4f89fcdbe376f4bb913[m
+Merge: 0374d43 ecb9b03
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Wed Sep 27 08:20:31 2023 -0500
+
+    Merge branch 'main' into info-redirect
+
+[33mcommit 0374d4390e6df085cbacf1e073f75c3411f74261[m
+Merge: 1f540e4 4ea6c6e
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Wed Sep 27 08:20:11 2023 -0500
+
+    Merge branch 'info-redirect' of https://github.com/VladCaterov/CSE3311-Team4-Project into info-redirect
+
+[33mcommit ecb9b03e1cfd4894942113cfc6c801e13a35ab86[m
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Mon Sep 25 05:06:26 2023 -0500
+
+    adedd initial scaling for different phone screen sizes
+
+[33mcommit 12923f6db3b74fcf1e18292ab89f7342f79f594b[m
+Author: Juan Hernandez <92403855+JAH4249@users.noreply.github.com>
+Date:   Sun Sep 24 22:20:08 2023 -0500
+
+    Loading Screen assets added
+    
+    This includes:
+    Blaze
+    Background colors
+    UTA Logo
+
+[33mcommit 11f68132f0778eba08b1e87c42dc4cc3aaf91c58[m
+Merge: 1f540e4 4ea6c6e
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Sat Sep 23 07:43:24 2023 -0500
+
+    Merge branch 'info-redirect'
+
+[33mcommit 1f540e443b3a4116824f10b0d9c0955eca149866[m
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Sat Sep 23 07:42:37 2023 -0500
+
+    fix
+
+[33mcommit 4ea6c6e260f6af35fafd41a8a1a5e3ee8e27b1e8[m
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Sat Sep 23 07:38:55 2023 -0500
+
+    created info button for demo
+
+[33mcommit 700481ee823dd83640f6ef633fa615a2b37b4773[m
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Sat Sep 23 07:19:19 2023 -0500
+
+    removed onClick temporarily
+
+[33mcommit 0c81f1f17f3798b3d64e913f908aec03b1f90c38[m
+Author: Vladimir Caterov <vladcaterovdev@gmail.com>
+Date:   Fri Sep 22 19:57:35 2023 -0500
+
+    adding initial project
+
+[33mcommit ae0efdead1153c7fbee3785bb1d5cb8ed5099c63[m
+Author: Vladimir Caterov <60447876+VladCaterov@users.noreply.github.com>
+Date:   Tue Aug 29 11:14:55 2023 -0500
+
+    Initial commit

@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: b776e1bed38de79468e4d849a7defb58
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Book_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1109
+        width: 486
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 243, y: 154}
+        - {x: 234, y: 154}
+        - {x: 233, y: 157}
+        - {x: 19, y: 157}
+        - {x: 17, y: 154}
+        - {x: -5, y: 154}
+        - {x: -5, y: 155}
+        - {x: -6, y: 157}
+        - {x: -233, y: 157}
+        - {x: -235, y: 154}
+        - {x: -243, y: 154}
+        - {x: -243, y: -177}
+        - {x: -17, y: -177}
+        - {x: -17, y: -183}
+        - {x: 29, y: -183}
+        - {x: 29, y: -177}
+        - {x: 243, y: -177}
+      - - {x: -241, y: 183}
+        - {x: -241, y: 180}
+        - {x: -239, y: 178}
+        - {x: -235, y: 178}
+        - {x: -233, y: 180}
+        - {x: -233, y: 183}
+      - - {x: -7, y: 181}
+        - {x: -4, y: 178}
+        - {x: -1, y: 179}
+        - {x: -1, y: 183}
+        - {x: -6, y: 183}
+        - {x: -7, y: 182}
+      - - {x: 11, y: 183}
+        - {x: 11, y: 180}
+        - {x: 13, y: 178}
+        - {x: 17, y: 178}
+        - {x: 19, y: 180}
+        - {x: 19, y: 183}
+      - - {x: 231, y: 183}
+        - {x: 231, y: 180}
+        - {x: 233, y: 178}
+        - {x: 237, y: 178}
+        - {x: 239, y: 180}
+        - {x: 239, y: 183}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: 9d017bae471618e4a9892003677294f8
+      internalID: 1512270093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book_1
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1472
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 243, y: 164.5}
+        - {x: 234, y: 164.5}
+        - {x: 233, y: 167.5}
+        - {x: 19, y: 167.5}
+        - {x: 17, y: 164.5}
+        - {x: -5, y: 164.5}
+        - {x: -6, y: 167.5}
+        - {x: -51, y: 167.5}
+        - {x: -52, y: 168.5}
+        - {x: -60, y: 169.5}
+        - {x: -61, y: 170.5}
+        - {x: -64, y: 170.5}
+        - {x: -65, y: 171.5}
+        - {x: -68, y: 171.5}
+        - {x: -69, y: 172.5}
+        - {x: -198, y: 172.5}
+        - {x: -198, y: 167.5}
+        - {x: -233, y: 167.5}
+        - {x: -235, y: 166.5}
+        - {x: -236, y: 164.5}
+        - {x: -243, y: 164.5}
+        - {x: -243, y: -166.5}
+        - {x: -17, y: -166.5}
+        - {x: -17, y: -172.5}
+        - {x: 29, y: -172.5}
+        - {x: 29, y: -166.5}
+        - {x: 243, y: -166.5}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: eb51f0835dd67564b9034bc957ce019c
+      internalID: -1272689623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1109
+        width: 486
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 243, y: 151.5}
+        - {x: 234, y: 151.5}
+        - {x: 233, y: 154.5}
+        - {x: 19, y: 154.5}
+        - {x: 17, y: 151.5}
+        - {x: -5, y: 151.5}
+        - {x: -5, y: 152.5}
+        - {x: -6, y: 154.5}
+        - {x: -51, y: 154.5}
+        - {x: -52, y: 155.5}
+        - {x: -55, y: 155.5}
+        - {x: -56, y: 156.5}
+        - {x: -60, y: 156.5}
+        - {x: -61, y: 157.5}
+        - {x: -64, y: 157.5}
+        - {x: -65, y: 158.5}
+        - {x: -68, y: 158.5}
+        - {x: -69, y: 159.5}
+        - {x: -73, y: 159.5}
+        - {x: -74, y: 160.5}
+        - {x: -77, y: 160.5}
+        - {x: -78, y: 161.5}
+        - {x: -81, y: 161.5}
+        - {x: -82, y: 162.5}
+        - {x: -86, y: 162.5}
+        - {x: -87, y: 163.5}
+        - {x: -90, y: 163.5}
+        - {x: -91, y: 164.5}
+        - {x: -94, y: 164.5}
+        - {x: -95, y: 165.5}
+        - {x: -98, y: 165.5}
+        - {x: -99, y: 166.5}
+        - {x: -103, y: 166.5}
+        - {x: -104, y: 167.5}
+        - {x: -107, y: 167.5}
+        - {x: -108, y: 168.5}
+        - {x: -111, y: 168.5}
+        - {x: -112, y: 169.5}
+        - {x: -116, y: 169.5}
+        - {x: -117, y: 170.5}
+        - {x: -120, y: 170.5}
+        - {x: -121, y: 171.5}
+        - {x: -124, y: 171.5}
+        - {x: -125, y: 172.5}
+        - {x: -129, y: 172.5}
+        - {x: -130, y: 173.5}
+        - {x: -133, y: 173.5}
+        - {x: -134, y: 174.5}
+        - {x: -137, y: 174.5}
+        - {x: -138, y: 175.5}
+        - {x: -142, y: 175.5}
+        - {x: -143, y: 176.5}
+        - {x: -146, y: 176.5}
+        - {x: -147, y: 177.5}
+        - {x: -150, y: 177.5}
+        - {x: -151, y: 178.5}
+        - {x: -155, y: 178.5}
+        - {x: -156, y: 179.5}
+        - {x: -159, y: 179.5}
+        - {x: -160, y: 180.5}
+        - {x: -163, y: 180.5}
+        - {x: -164, y: 181.5}
+        - {x: -168, y: 181.5}
+        - {x: -169, y: 182.5}
+        - {x: -172, y: 182.5}
+        - {x: -173, y: 183.5}
+        - {x: -176, y: 183.5}
+        - {x: -177, y: 184.5}
+        - {x: -181, y: 184.5}
+        - {x: -182, y: 185.5}
+        - {x: -198, y: 185.5}
+        - {x: -198, y: 154.5}
+        - {x: -233, y: 154.5}
+        - {x: -235, y: 153.5}
+        - {x: -236, y: 151.5}
+        - {x: -243, y: 151.5}
+        - {x: -243, y: -179.5}
+        - {x: -17, y: -179.5}
+        - {x: -17, y: -185.5}
+        - {x: 29, y: -185.5}
+        - {x: 29, y: -179.5}
+        - {x: 243, y: -179.5}
+      - - {x: -239, y: 182.5}
+        - {x: -241, y: 180.5}
+        - {x: -241, y: 177.5}
+        - {x: -239, y: 175.5}
+        - {x: -234, y: 175.5}
+        - {x: -233, y: 177.5}
+        - {x: -233, y: 181.5}
+        - {x: -235, y: 182.5}
+      - - {x: -7, y: 179.5}
+        - {x: -7, y: 178.5}
+        - {x: -4, y: 175.5}
+        - {x: -1, y: 176.5}
+        - {x: -1, y: 180.5}
+        - {x: -3, y: 182.5}
+        - {x: -4, y: 182.5}
+      - - {x: 13, y: 182.5}
+        - {x: 11, y: 180.5}
+        - {x: 11, y: 177.5}
+        - {x: 13, y: 175.5}
+        - {x: 17, y: 175.5}
+        - {x: 19, y: 177.5}
+        - {x: 19, y: 180.5}
+        - {x: 17, y: 182.5}
+      - - {x: 233, y: 183.5}
+        - {x: 231, y: 181.5}
+        - {x: 231, y: 177.5}
+        - {x: 233, y: 175.5}
+        - {x: 237, y: 175.5}
+        - {x: 239, y: 176.5}
+        - {x: 239, y: 180.5}
+        - {x: 238, y: 183.5}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: cf3f0f21907cd154cbbd26b8588f1f42
+      internalID: 1445309980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book_3
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 597
+        width: 486
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 243, y: 154}
+        - {x: 234, y: 154}
+        - {x: 233, y: 157}
+        - {x: 19, y: 157}
+        - {x: 17, y: 154}
+        - {x: -5, y: 154}
+        - {x: -5, y: 155}
+        - {x: -6, y: 157}
+        - {x: -40, y: 157}
+        - {x: -41, y: 158}
+        - {x: -43, y: 158}
+        - {x: -47, y: 160}
+        - {x: -50, y: 160}
+        - {x: -51, y: 161}
+        - {x: -57, y: 162}
+        - {x: -58, y: 163}
+        - {x: -60, y: 163}
+        - {x: -64, y: 165}
+        - {x: -67, y: 165}
+        - {x: -71, y: 167}
+        - {x: -74, y: 167}
+        - {x: -75, y: 168}
+        - {x: -77, y: 168}
+        - {x: -81, y: 170}
+        - {x: -84, y: 170}
+        - {x: -88, y: 172}
+        - {x: -91, y: 172}
+        - {x: -92, y: 173}
+        - {x: -94, y: 173}
+        - {x: -98, y: 175}
+        - {x: -101, y: 175}
+        - {x: -102, y: 176}
+        - {x: -104, y: 176}
+        - {x: -108, y: 178}
+        - {x: -111, y: 178}
+        - {x: -115, y: 180}
+        - {x: -118, y: 180}
+        - {x: -119, y: 181}
+        - {x: -121, y: 181}
+        - {x: -125, y: 183}
+        - {x: -135, y: 183}
+        - {x: -136, y: 182}
+        - {x: -136, y: 157}
+        - {x: -233, y: 157}
+        - {x: -235, y: 156}
+        - {x: -236, y: 154}
+        - {x: -243, y: 154}
+        - {x: -243, y: -177}
+        - {x: -17, y: -177}
+        - {x: -17, y: -183}
+        - {x: 29, y: -183}
+        - {x: 29, y: -177}
+        - {x: 243, y: -177}
+      - - {x: -241, y: 183}
+        - {x: -241, y: 180}
+        - {x: -239, y: 178}
+        - {x: -235, y: 178}
+        - {x: -233, y: 180}
+        - {x: -233, y: 183}
+      - - {x: -7, y: 181}
+        - {x: -4, y: 178}
+        - {x: -1, y: 179}
+        - {x: -1, y: 183}
+        - {x: -6, y: 183}
+        - {x: -7, y: 182}
+      - - {x: 11, y: 183}
+        - {x: 11, y: 180}
+        - {x: 13, y: 178}
+        - {x: 17, y: 178}
+        - {x: 19, y: 180}
+        - {x: 19, y: 183}
+      - - {x: 231, y: 183}
+        - {x: 231, y: 180}
+        - {x: 233, y: 178}
+        - {x: 237, y: 178}
+        - {x: 239, y: 180}
+        - {x: 239, y: 183}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: abf10286f69b238488b933fdd447cff5
+      internalID: 1406342256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book_4
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 960
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 234, y: 154}
+        - {x: 233, y: 157}
+        - {x: 198, y: 157}
+        - {x: 198, y: 183}
+        - {x: 180, y: 183}
+        - {x: 176, y: 182}
+        - {x: 175, y: 181}
+        - {x: 171, y: 181}
+        - {x: 167, y: 180}
+        - {x: 166, y: 179}
+        - {x: 162, y: 179}
+        - {x: 158, y: 178}
+        - {x: 157, y: 177}
+        - {x: 153, y: 177}
+        - {x: 149, y: 176}
+        - {x: 148, y: 175}
+        - {x: 144, y: 175}
+        - {x: 140, y: 174}
+        - {x: 139, y: 173}
+        - {x: 135, y: 173}
+        - {x: 131, y: 172}
+        - {x: 130, y: 171}
+        - {x: 126, y: 171}
+        - {x: 122, y: 170}
+        - {x: 121, y: 169}
+        - {x: 117, y: 169}
+        - {x: 116, y: 168}
+        - {x: 108, y: 167}
+        - {x: 104, y: 166}
+        - {x: 103, y: 165}
+        - {x: 94, y: 164}
+        - {x: 93, y: 163}
+        - {x: 85, y: 162}
+        - {x: 84, y: 161}
+        - {x: 76, y: 160}
+        - {x: 75, y: 159}
+        - {x: 67, y: 158}
+        - {x: 66, y: 157}
+        - {x: 19, y: 157}
+        - {x: 17, y: 156}
+        - {x: 16, y: 154}
+        - {x: -5, y: 154}
+        - {x: -7, y: 157}
+        - {x: -233, y: 157}
+        - {x: -235, y: 156}
+        - {x: -236, y: 154}
+        - {x: -243, y: 154}
+        - {x: -243, y: -177}
+        - {x: -17, y: -177}
+        - {x: -17, y: -183}
+        - {x: 29, y: -183}
+        - {x: 29, y: -177}
+        - {x: 243, y: -177}
+        - {x: 243, y: 154}
+      - - {x: -241, y: 183}
+        - {x: -241, y: 180}
+        - {x: -239, y: 178}
+        - {x: -235, y: 178}
+        - {x: -233, y: 180}
+        - {x: -233, y: 183}
+      - - {x: -7, y: 181}
+        - {x: -4, y: 178}
+        - {x: -1, y: 179}
+        - {x: -1, y: 183}
+        - {x: -6, y: 183}
+        - {x: -7, y: 182}
+      - - {x: 11, y: 183}
+        - {x: 11, y: 180}
+        - {x: 13, y: 178}
+        - {x: 17, y: 178}
+        - {x: 19, y: 180}
+        - {x: 19, y: 183}
+      - - {x: 231, y: 183}
+        - {x: 231, y: 180}
+        - {x: 233, y: 178}
+        - {x: 237, y: 178}
+        - {x: 239, y: 180}
+        - {x: 239, y: 183}
+      physicsShape: []
+      tessellationDetail: 0.86
+      bones: []
+      spriteID: d8296f8daf082ee4485d6753e79d716e
+      internalID: -147774103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book_5
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 597
+        width: 486
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 243, y: 152}
+        - {x: 234, y: 152}
+        - {x: 233, y: 155}
+        - {x: 150, y: 155}
+        - {x: 150, y: 185}
+        - {x: 136, y: 185}
+        - {x: 135, y: 184}
+        - {x: 133, y: 184}
+        - {x: 132, y: 183}
+        - {x: 130, y: 183}
+        - {x: 127, y: 182}
+        - {x: 123, y: 180}
+        - {x: 120, y: 180}
+        - {x: 119, y: 179}
+        - {x: 117, y: 179}
+        - {x: 116, y: 178}
+        - {x: 114, y: 178}
+        - {x: 113, y: 177}
+        - {x: 111, y: 177}
+        - {x: 110, y: 176}
+        - {x: 108, y: 176}
+        - {x: 107, y: 175}
+        - {x: 105, y: 175}
+        - {x: 104, y: 174}
+        - {x: 102, y: 174}
+        - {x: 101, y: 173}
+        - {x: 99, y: 173}
+        - {x: 98, y: 172}
+        - {x: 96, y: 172}
+        - {x: 95, y: 171}
+        - {x: 93, y: 171}
+        - {x: 92, y: 170}
+        - {x: 90, y: 170}
+        - {x: 89, y: 169}
+        - {x: 87, y: 169}
+        - {x: 86, y: 168}
+        - {x: 84, y: 168}
+        - {x: 81, y: 167}
+        - {x: 77, y: 165}
+        - {x: 74, y: 165}
+        - {x: 73, y: 164}
+        - {x: 71, y: 164}
+        - {x: 70, y: 163}
+        - {x: 68, y: 163}
+        - {x: 67, y: 162}
+        - {x: 65, y: 162}
+        - {x: 64, y: 161}
+        - {x: 62, y: 161}
+        - {x: 61, y: 160}
+        - {x: 59, y: 160}
+        - {x: 58, y: 159}
+        - {x: 56, y: 159}
+        - {x: 55, y: 158}
+        - {x: 53, y: 158}
+        - {x: 50, y: 157}
+        - {x: 46, y: 155}
+        - {x: 19, y: 155}
+        - {x: 17, y: 154}
+        - {x: 16, y: 152}
+        - {x: -5, y: 152}
+        - {x: -7, y: 155}
+        - {x: -233, y: 155}
+        - {x: -235, y: 154}
+        - {x: -236, y: 152}
+        - {x: -243, y: 152}
+        - {x: -243, y: -179}
+        - {x: -17, y: -179}
+        - {x: -17, y: -185}
+        - {x: 29, y: -185}
+        - {x: 29, y: -179}
+        - {x: 243, y: -179}
+      - - {x: -240, y: 183}
+        - {x: -241, y: 181}
+        - {x: -241, y: 178}
+        - {x: -239, y: 176}
+        - {x: -233, y: 176}
+        - {x: -233, y: 183}
+      - - {x: -7, y: 180}
+        - {x: -7, y: 179}
+        - {x: -4, y: 176}
+        - {x: -1, y: 177}
+        - {x: -1, y: 181}
+        - {x: -3, y: 183}
+        - {x: -4, y: 183}
+      - - {x: 13, y: 183}
+        - {x: 11, y: 181}
+        - {x: 11, y: 178}
+        - {x: 13, y: 176}
+        - {x: 17, y: 176}
+        - {x: 19, y: 178}
+        - {x: 19, y: 181}
+        - {x: 17, y: 183}
+      - - {x: 231, y: 178}
+        - {x: 232, y: 176}
+        - {x: 239, y: 176}
+        - {x: 239, y: 182}
+        - {x: 238, y: 184}
+        - {x: 233, y: 184}
+        - {x: 231, y: 182}
+      physicsShape: []
+      tessellationDetail: 0.96
+      bones: []
+      spriteID: 0f773958487967943a0bfa9b5b4c54d3
+      internalID: 1925427438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 85
+        width: 486
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 243, y: 154}
+        - {x: 234, y: 154}
+        - {x: 233, y: 157}
+        - {x: 198, y: 157}
+        - {x: 198, y: 183}
+        - {x: 180, y: 183}
+        - {x: 179, y: 182}
+        - {x: 176, y: 182}
+        - {x: 175, y: 181}
+        - {x: 171, y: 181}
+        - {x: 170, y: 180}
+        - {x: 167, y: 180}
+        - {x: 166, y: 179}
+        - {x: 162, y: 179}
+        - {x: 161, y: 178}
+        - {x: 158, y: 178}
+        - {x: 157, y: 177}
+        - {x: 153, y: 177}
+        - {x: 152, y: 176}
+        - {x: 149, y: 176}
+        - {x: 148, y: 175}
+        - {x: 144, y: 175}
+        - {x: 143, y: 174}
+        - {x: 140, y: 174}
+        - {x: 139, y: 173}
+        - {x: 135, y: 173}
+        - {x: 134, y: 172}
+        - {x: 131, y: 172}
+        - {x: 130, y: 171}
+        - {x: 126, y: 171}
+        - {x: 125, y: 170}
+        - {x: 122, y: 170}
+        - {x: 121, y: 169}
+        - {x: 117, y: 169}
+        - {x: 116, y: 168}
+        - {x: 108, y: 167}
+        - {x: 107, y: 166}
+        - {x: 104, y: 166}
+        - {x: 103, y: 165}
+        - {x: 94, y: 164}
+        - {x: 93, y: 163}
+        - {x: 85, y: 162}
+        - {x: 84, y: 161}
+        - {x: 76, y: 160}
+        - {x: 75, y: 159}
+        - {x: 67, y: 158}
+        - {x: 66, y: 157}
+        - {x: 19, y: 157}
+        - {x: 17, y: 156}
+        - {x: 16, y: 154}
+        - {x: -5, y: 154}
+        - {x: -7, y: 157}
+        - {x: -233, y: 157}
+        - {x: -235, y: 156}
+        - {x: -236, y: 154}
+        - {x: -243, y: 154}
+        - {x: -243, y: -177}
+        - {x: -17, y: -177}
+        - {x: -17, y: -183}
+        - {x: 29, y: -183}
+        - {x: 29, y: -177}
+        - {x: 243, y: -177}
+      - - {x: -241, y: 183}
+        - {x: -241, y: 180}
+        - {x: -239, y: 178}
+        - {x: -235, y: 178}
+        - {x: -233, y: 180}
+        - {x: -233, y: 183}
+      - - {x: -7, y: 181}
+        - {x: -4, y: 178}
+        - {x: -1, y: 179}
+        - {x: -1, y: 183}
+        - {x: -6, y: 183}
+        - {x: -7, y: 182}
+      - - {x: 11, y: 183}
+        - {x: 11, y: 180}
+        - {x: 13, y: 178}
+        - {x: 17, y: 178}
+        - {x: 19, y: 180}
+        - {x: 19, y: 183}
+      - - {x: 231, y: 183}
+        - {x: 231, y: 180}
+        - {x: 233, y: 178}
+        - {x: 237, y: 178}
+        - {x: 239, y: 180}
+        - {x: 239, y: 183}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: e8aed81956595f140958656c32103cae
+      internalID: 1559682904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book_7
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 448
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8444876200813459cf2993937633e8
+      internalID: 1835073502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Book_0: 1512270093
+      Book_1: -1272689623
+      Book_2: 1445309980
+      Book_3: 1406342256
+      Book_4: -147774103
+      Book_5: 1925427438
+      Book_6: 1559682904
+      Book_7: 1835073502
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

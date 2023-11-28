@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class onClick : MonoBehaviour
+public class OnClick : MonoBehaviour
 {
     // Start is called before the first frame update
 

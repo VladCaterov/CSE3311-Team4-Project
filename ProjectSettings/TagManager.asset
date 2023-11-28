@@ -8,15 +8,15 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Background
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - GameObjects
+  - Ground
+  - Button
+  - Player
+  - Splash Screen
+  - Interactable
   - 
   - 
   - 
@@ -38,6 +38,27 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Ground
+    uniqueID: 3420030019
+    locked: 0
+  - name: Background
+    uniqueID: 4104451239
+    locked: 1
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Button
+    uniqueID: 616326823
+    locked: 0
+  - name: GameObjects
+    uniqueID: 2423574059
+    locked: 0
+  - name: Player
+    uniqueID: 848082365
+    locked: 0
+  - name: Splash Screen
+    uniqueID: 211319437
+    locked: 0
+  - name: Interactable
+    uniqueID: 4011999581
     locked: 0
