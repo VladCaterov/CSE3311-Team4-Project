@@ -9,6 +9,11 @@ public class CameraFollow : MonoBehaviour
     public Vector2 minPosition = new Vector2(0f, 0f); // Minimum camera position
     public Vector2 maxPosition = new Vector2(0f, 0f);  // Maximum camera position
 
+    private void Start()
+    {
+        Time.timeScale = 1f;
+    }
+
     private void LateUpdate()
     {
         if (target != null)
