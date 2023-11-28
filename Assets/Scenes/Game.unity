@@ -299,6 +299,13 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 0
+  animator: {fileID: 0}
+  GameStatusIndicator: {fileID: 0}
+  GameOverIndicator: {fileID: 0}
+  PassedExamIndicator: {fileID: 0}
+  EndGameUI: {fileID: 0}
+  Scene: {fileID: 0}
+  ScoreLeft: 100
 --- !u!1 &354264357
 GameObject:
   m_ObjectHideFlags: 0
