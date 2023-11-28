@@ -87,7 +87,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!114 &1812989144835041975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,6 +103,9 @@ MonoBehaviour:
   speed: 0.5
   distance: 7
   anim: {fileID: 0}
+  Character: {fileID: 0}
+  EndMessageUI: {fileID: 0}
+  questions: 30
 --- !u!95 &7832168947206930845
 Animator:
   serializedVersion: 5
@@ -136,6 +139,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96db380e916b354468161ef3351b9229, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Waterprefab: {fileID: 0}
+  Saltprefab: {fileID: 0}
+  firePoint: {fileID: 0}
 --- !u!1 &9125714905381363114
 GameObject:
   m_ObjectHideFlags: 0
