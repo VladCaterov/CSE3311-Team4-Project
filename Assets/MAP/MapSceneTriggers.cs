@@ -27,6 +27,9 @@ public class MapSceneTriggers : MonoBehaviour
         {
             SceneManager.LoadScene("Dorm-westHall");
         }
+        else if (collision.gameObject.name == "exitgame")
+        {
+            SceneManager.LoadScene("uta-map");
+        }
     }
 }
-
