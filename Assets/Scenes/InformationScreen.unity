@@ -1104,9 +1104,9 @@ MonoBehaviour:
 
     Comp sci
 
-    Dummy 1
+    Lasagna
 
-    Dummy 2'
+    GTA V'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bd86504adcac9ff40a6d0d529d0275d2, type: 2}
   m_sharedMaterial: {fileID: -8732704807791073376, guid: bd86504adcac9ff40a6d0d529d0275d2, type: 2}
@@ -2049,7 +2049,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 22b6f0aeb7ccd418f8d2a1cae34e40ec, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
